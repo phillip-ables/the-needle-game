@@ -1,0 +1,73 @@
+ 
+
+
+
+
+MENU
+	main menu scene --> //this i havent decided if it will be entered at start of game or if it will be just the little burger icon, never the less every game has a main menu
+
+	i want some animations or something in the background to make it more livly
+
+		Start Button---
+		Shop Button----
+		Options Button-	
+
+
+
+		Shop Panel
+			Items Container
+				Item Image
+				Title Banner
+				Cost Box
+
+
+
+
+
+
+		Options Panel
+			Some Sliders
+			Some Options for  music and stuff
+
+
+
+
+
+
+
+
+
+
+
+Levels
+
+	Level Display
+	Character Container
+	Asylum Map (Map 1)
+	Enemies
+
+
+
+Funtions
+	Stab
+	Shoot
+	Reload
+	Heal
+	Switch Items
+	Pick Up
+	Death
+
+
+Starts/ Load Level
+	Comic Book SCript
+		pages that turn on click or slide or whatever
+	
+
+	Camera Stoned
+
+
+		
+
+
+
+
