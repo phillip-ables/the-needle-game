@@ -23,7 +23,22 @@ ModelImporter:
     4300000: pusher
     4300002: fluid
     4300004: needle
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FluidTransparent
+    second: {fileID: 2100000, guid: 7e0010b2146424040ba89bd6399f7083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassMaterial
+    second: {fileID: 2100000, guid: 22041d84b9d3a9d43a17befda5ddd4d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalMaterial
+    second: {fileID: 2100000, guid: f307987bd9267ba45bc5a8293794161f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
