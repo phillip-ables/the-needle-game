@@ -15,15 +15,15 @@ public class ZombieScript : MonoBehaviour {
 	void Update () {
 		if(Input.GetAxis("Vertical") > 0)
         {
-            Debug.Log("WAAAAALK!, unity");
+            animZombie.SetTrigger("Walk");
         }
         else if(Input.GetAxis("Vertical") < 0)
         {
-            Debug.Log("Reverse, unity");
+            animZombie.SetTrigger("Reverse");
         }
         else
         {
-            
+            animZombie.SetTrigger("Stop");
         }
 	}
 }
