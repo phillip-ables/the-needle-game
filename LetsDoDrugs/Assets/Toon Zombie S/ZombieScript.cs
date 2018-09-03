@@ -23,7 +23,7 @@ public class ZombieScript : MonoBehaviour {
             || Input.GetKeyDown(KeyCode.LeftArrow)
             )
         {
-            animZombie.SetTrigger("Walk");
+            animZombie.SetBool("isWalking", true);
         }
 
         //Move 
@@ -56,8 +56,7 @@ public class ZombieScript : MonoBehaviour {
             )
             //if(Input.GetAxis("Vertical") == 0)d
             {
-            animZombie.SetTrigger("Stop");
-            Debug.Log("Stopppppppppp't");
+            animZombie.SetBool("isWalking", false);
         }
 	}
 }
