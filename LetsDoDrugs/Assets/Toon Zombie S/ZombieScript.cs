@@ -13,17 +13,16 @@ public class ZombieScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetAxis("Vertical") > 0)
+		//if(Input.GetAxis("Vertical") != 0)
+        if(Input.GetKeyDown(KeyCode.UpArrow))
         {
             animZombie.SetTrigger("Walk");
         }
-        else if(Input.GetAxis("Vertical") < 0)
-        {
-            animZombie.SetTrigger("Reverse");
-        }
-        else
+        if(Input.GetKeyUp(KeyCode.UpArrow))
+        //if(Input.GetAxis("Vertical") == 0)
         {
             animZombie.SetTrigger("Stop");
+            Debug.Log("Stopppppppppp't");
         }
 	}
 }
