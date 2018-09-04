@@ -169,7 +169,27 @@ ModelImporter:
     13700006: Hair
     13700008: Shoes
     13700010: Tops
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bodymat
+    second: {fileID: 2100000, guid: 804550c89010cdd4a8bdf06df0342ea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hairmat
+    second: {fileID: 2100000, guid: bf057832ff9a33349a4ee2e7c4d05972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoesmat
+    second: {fileID: 2100000, guid: 2f66695d974162f4cb86d00b9505e837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Topmat
+    second: {fileID: 2100000, guid: 2f66695d974162f4cb86d00b9505e837, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
