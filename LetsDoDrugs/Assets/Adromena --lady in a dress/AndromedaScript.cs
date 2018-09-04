@@ -12,9 +12,9 @@ public class AndromedaScript : MonoBehaviour {
 	void Start () {
         animAndromeda = GetComponent<Animator>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
         //wasd controlls
         float translation = Input.GetAxis("Vertical") * speed;
         float rotation = Input.GetAxis("Horizontal") * rotationSpeed;
@@ -27,6 +27,16 @@ public class AndromedaScript : MonoBehaviour {
         if (Input.GetButtonDown("Jump"))
         {
             animAndromeda.SetTrigger("isJumping");
+        }
+
+        //run animate
+        if (translation != 0)
+        {
+            animAndromeda.SetBool("isRunning", true);
+        }
+        else
+        {
+            animAndromeda.SetBool("isRunning", false);
         }
 	}
 }
